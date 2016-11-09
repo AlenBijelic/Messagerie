@@ -1,0 +1,18 @@
+{
+  "name": "Messagerie Instantanée Professionnelle",
+  "version": "1.0.0",
+  "description": "Communicate with friends.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "message",
+    "messagerie",
+    "professionnelle",
+    "alen",
+    "bijelic"
+  ],
+  "author": "AlenBijelic",
+  "license": "ISC"
+}
