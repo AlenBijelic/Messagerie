@@ -1,3 +1,41 @@
 body{
 	background-image: url("../Images/background.png");
+	padding: 0px;
+	margin: 0px; 
+}
+
+#title-bar {
+	-webkit-app-region: drag;
+	height: 24px; 
+	background-color: transparent;
+	padding: none;
+	margin: 0px;
+}
+
+#title-bar-btns {
+	-webkit-app-region: no-drag;
+	position: fixed;
+	top: 0px;
+	right: 6px;
+	padding-top: 5px;
+	-webkit-filter: opacity(20%);
+	filter: opacity(20%);
+}
+
+.close:hover{
+	-webkit-filter: opacity(160%);
+	filter: opacity(160%);
+}
+.maximize:hover{
+	-webkit-filter: opacity(160%);
+	filter: opacity(160%);
+}
+
+.minimize:hover{
+	-webkit-filter: opacity(160%);
+	filter: opacity(160%);
+}
+
+.specialButtons{
+	height:20px;
 }

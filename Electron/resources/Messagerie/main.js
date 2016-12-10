@@ -8,8 +8,13 @@ let win
 
 function createWindow () {
   // Create the browser window.
-  win = new BrowserWindow({width: 800, height: 600})
-
+  win = new BrowserWindow({
+	  width: 1000, 
+	  height: 600, 
+	  icon:'C:/Users/Alen Bijelic/Desktop/Electron/resources/Messagerie/Images/icon.ico',
+	  frame: false
+})
+    
   // and load the index.html of the app.
   win.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
